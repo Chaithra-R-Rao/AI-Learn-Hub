@@ -1,0 +1,43 @@
+body {
+    /* background: linear-gradient(45deg, #fbc2eb, #a6c1ee); */
+    /* min-height: 100vh; */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+ 
+/* Container for centering the card */
+.login-container {
+    height: 100vh;
+    /* width: 500px; */
+}
+ 
+/* Card styling */
+.login-card {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+ 
+/* Form section styling */
+.form-section {
+    background-color: #fefbf5;
+}
+ 
+/* Image section styling */
+.image-section img {
+    height: 100%;
+    object-fit: cover;
+}
+ 
+/* Custom Button */
+.btn-custom {
+    background-color: #6f42c1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.3s;
+}
+ 
+.btn-custom:hover {
+    background-color: #5a359c;
+}

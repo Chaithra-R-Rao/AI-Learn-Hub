@@ -1,0 +1,25 @@
+/* Gradient Background Container */
+.services-container {
+    background: linear-gradient(135deg, #fefbf5 50%, #f0e9da 50%);
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+ 
+/* Service Block Styling */
+.service-block {
+    background-color: #ffffff;
+    border-left: 3px solid #5A3D31;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+ 
+/* Text Colors */
+h1, h4 {
+    color: #232323;
+}
+ 
+p {
+    color: #5a5a5a;
+}
+
