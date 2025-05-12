@@ -5,12 +5,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Gallery.css';
 
 const courses = [
-  { title: "Robotics", image: "/Images/robot.png", icon: "fas fa-robot" },
-  { title: "Autonomous System", image: "/Images/autonomous-system.png", icon: "fas fa-car-side" },
-  { title: "Machine Learning", image: "/Images/machine-learning.png", icon: "fas fa-brain" },
-  { title: "Generative AI", image: "/Images/genai.jpg", icon: "fas fa-magic" },
-  { title: "Computer Vision", image: "/Images/computer-vision.png", icon: "fas fa-eye" },
+  { title: "Robotics", image: `${process.env.PUBLIC_URL}/Images/robot.png`, icon: "fas fa-robot" },
+  { title: "Autonomous System", image: `${process.env.PUBLIC_URL}/Images/autonomous-system.png`, icon: "fas fa-car-side" },
+  { title: "Machine Learning", image: `${process.env.PUBLIC_URL}/Images/machine-learning.png`, icon: "fas fa-brain" },
+  { title: "Generative AI", image: `${process.env.PUBLIC_URL}/Images/genai.jpg`, icon: "fas fa-magic" },
+  { title: "Computer Vision", image: `${process.env.PUBLIC_URL}/Images/computer-vision.png`, icon: "fas fa-eye" },
 ];
+
 
 export default function PopularCourses() {
   const [isOpen, setIsOpen] = useState(false);

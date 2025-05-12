@@ -84,7 +84,7 @@ const Login = () => {
                     {/* Right Section */}
                     <div className="col-md-6 image-section">
                         <img
-                            src="/Images/robot.png"
+                            src={`${process.env.PUBLIC_URL}/Images/robot.png`}
                             alt="Robot"
                             className="img-fluid rounded-end"
                         />

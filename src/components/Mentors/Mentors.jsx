@@ -5,11 +5,10 @@ import Carousel from "react-bootstrap/Carousel";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const mentors = [
-    { id: 1, name: "Jack Thomson", title: "President", image: "Images/Photo1.png" },
-    { id: 2, name: "Emily Carter", title: "Mentor", image: "Images/Photo2.png" },
-    { id: 3, name: "Sarah Parker", title: "Senior Mentor", image: "Images/Photo3.png" },
-    { id: 4, name: "Alex Johnson", title: "Junior Mentor", image: "Images/Photo4.png" },
-    // { id: 5, name: "Michael Brown", title: "Teacher", image: "Images/Photo3.png" }
+    { id: 1, name: "Jack Thomson", title: "President", image: `${process.env.PUBLIC_URL}/Images/Photo1.png` },
+    { id: 2, name: "Emily Carter", title: "Mentor", image: `${process.env.PUBLIC_URL}/Images/Photo2.png` },
+    { id: 3, name: "Sarah Parker", title: "Senior Mentor", image: `${process.env.PUBLIC_URL}Images/Photo3.png` },
+    { id: 4, name: "Alex Johnson", title: "Junior Mentor", image: `${process.env.PUBLIC_URL}Images/Photo4.png` },
 ];
 
 const Mentors = () => {
