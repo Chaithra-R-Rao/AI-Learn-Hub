@@ -1,0 +1,28 @@
+ .contact-container {
+   min-height: 100vh;
+   background-color: #f0f0f0;
+ }
+
+ .contact-card {
+   max-width: 400px;
+   width: 100%;
+   background-color: white;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ h2 {
+   color: #5a5a5a;
+ }
+
+ .btn-custom {
+   background-color: #5A3D31;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   transition: background-color 0.3s;
+ }
+
+ .btn-custom:hover {
+   background-color: #72625c;
+ }

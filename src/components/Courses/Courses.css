@@ -1,0 +1,22 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.courses-container {
+  padding-top: 20px;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}

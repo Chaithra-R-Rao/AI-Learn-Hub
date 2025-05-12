@@ -1,0 +1,29 @@
+.slider-container {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slider-description{
+    color:white;
+}
+.slider-header{
+    color:rgb(151, 80, 80);
+}
+.slide-overlay {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
+    z-index: 2;
+}
+ 
+.carousel-item img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 400px;
+}

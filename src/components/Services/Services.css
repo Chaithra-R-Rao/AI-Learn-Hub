@@ -1,6 +1,6 @@
 /* Gradient Background Container */
 .services-container {
-    background: linear-gradient(135deg, #fefbf5 50%, #f0e9da 50%);
+    background: linear-gradient(135deg, #fcf8f2 50%, #dfd8c9 50%);
     border-radius: 10px;
     padding: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
@@ -19,7 +19,7 @@ h1, h4 {
     color: #232323;
 }
  
-p {
+.service-content{
     color: #5a5a5a;
 }
 
