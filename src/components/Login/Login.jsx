@@ -23,12 +23,14 @@ const Login = () => {
             if (matchedUser) {
                 localStorage.setItem('user', JSON.stringify(matchedUser));
 
+                const base = '/AI-Learn-Hub';
+
                 if (matchedUser.role === 'Admin') {
-                    window.location.href = '/admin-dashboard';
+                    window.location.href = `${base}/admin-dashboard`;
                 } else if (matchedUser.role === 'Teacher') {
-                    window.location.href = '/faculty-dashboard';
+                    window.location.href = `${base}/faculty-dashboard`;
                 } else if (matchedUser.role === 'Student') {
-                    window.location.href = '/student-dashboard';
+                    window.location.href = `${base}/student-dashboard`;
                 }
             } else {
                 setError('Invalid email or password');
