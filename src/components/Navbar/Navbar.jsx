@@ -39,7 +39,7 @@ export default function Navbar() {
                     <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
                     <BootstrapNavbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto nav-items-custom">
-                            <Nav.Link as={NavLink} to="/home">
+                            <Nav.Link as={NavLink} to="/">
                                 <BsHouseDoor className="me-2" /> Home
                             </Nav.Link>
 

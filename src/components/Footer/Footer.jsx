@@ -14,9 +14,9 @@ export default function Footer() {
           <h5 className="mt-4">About</h5>
           <p>Learn more about our website, team, and purpose.</p>
           <ul>
-            <li><Link to="/home#header">About</Link></li>
-            <li><Link to="/home#services">Services</Link></li>
-            <li><Link to="/home#mentors">Mentors</Link></li>
+            <li><Link to="/#header">About</Link></li>
+            <li><Link to="/#services">Services</Link></li>
+            <li><Link to="/#mentors">Mentors</Link></li>
           </ul>
         </div>
 

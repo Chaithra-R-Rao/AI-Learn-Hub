@@ -16,11 +16,10 @@ import StudentDashboard from './components/StudentDashboard/StudentDashboard';
 
 function App() {
   return (
-    <Router basename="/AI-Learn-Hub">
+    <Router>
       <div>
         <Navbar />
         <Routes>
-          <Route path="/home" element={<Home />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
