@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/%20//chaithra-r-rao.github.io/AI-Learn-Hub/static/css/main.1247dc00.css",
-    "main.js": "/%20//chaithra-r-rao.github.io/AI-Learn-Hub/static/js/main.12136a30.js",
+    "main.css": "/%20//chaithra-r-rao.github.io/AI-Learn-Hub/static/css/main.6310afd1.css",
+    "main.js": "/%20//chaithra-r-rao.github.io/AI-Learn-Hub/static/js/main.26e52791.js",
     "static/js/453.9c3c97c6.chunk.js": "/%20//chaithra-r-rao.github.io/AI-Learn-Hub/static/js/453.9c3c97c6.chunk.js",
     "index.html": "/%20//chaithra-r-rao.github.io/AI-Learn-Hub/index.html",
-    "main.1247dc00.css.map": "/%20//chaithra-r-rao.github.io/AI-Learn-Hub/static/css/main.1247dc00.css.map",
-    "main.12136a30.js.map": "/%20//chaithra-r-rao.github.io/AI-Learn-Hub/static/js/main.12136a30.js.map",
+    "main.6310afd1.css.map": "/%20//chaithra-r-rao.github.io/AI-Learn-Hub/static/css/main.6310afd1.css.map",
+    "main.26e52791.js.map": "/%20//chaithra-r-rao.github.io/AI-Learn-Hub/static/js/main.26e52791.js.map",
     "453.9c3c97c6.chunk.js.map": "/%20//chaithra-r-rao.github.io/AI-Learn-Hub/static/js/453.9c3c97c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1247dc00.css",
-    "static/js/main.12136a30.js"
+    "static/css/main.6310afd1.css",
+    "static/js/main.26e52791.js"
   ]
 }
