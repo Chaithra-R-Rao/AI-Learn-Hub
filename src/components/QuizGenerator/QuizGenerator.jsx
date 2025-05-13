@@ -13,7 +13,7 @@ const QuizGenerator = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const API_KEY = 'AIzaSyCKx560q6fMKlZQiQ9q7MueaaQUq1i0KXk'; // Add your Gemini API key
+  const API_KEY = ''; // Add your Gemini API key
 
   useEffect(() => {
     const loadCourses = async () => {

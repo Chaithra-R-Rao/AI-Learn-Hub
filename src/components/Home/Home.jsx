@@ -1,10 +1,9 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import Header from '../Header/Header'
 import Services from '../Services/Services'
 import Mentors from '../Mentors/Mentors'
 import Slider from '../Slider/Slider'
 import { useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
 export default function Home() {
   const location = useLocation();
 

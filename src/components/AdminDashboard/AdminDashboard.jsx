@@ -98,7 +98,7 @@ const AdminDashboard = () => {
             <h2 className="mb-4">Admin Dashboard</h2>
 
             {/* Charts Section */}
-            <UserChart groupedUsers={groupedUsers} studentCount={studentCount} courseCount={courseCount} />
+            <UserChart groupedUsers={groupedUsers}/>
 
             {/* Add User */}
             <SignUp title="Add User Details" buttonText="Add User" onUserAdded={fetchUsers} />
