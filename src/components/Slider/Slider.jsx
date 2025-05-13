@@ -9,19 +9,19 @@ export default function Slider() {
         {
             id: 1,
             title: "Autonomous Systems",
-            image: `${process.env.PUBLIC_URL}Images/autonomous-system.png`,
+            image: `${process.env.PUBLIC_URL}/Images/autonomous-system.png`,
             description: "This includes self-driving cars and drones that can operate without human intervention."
         },
         {
             id: 2,
             title: "Machine Learning (ML)",
-            image: `${process.env.PUBLIC_URL}Images/machine-learning.png`,
+            image: `${process.env.PUBLIC_URL}/Images/machine-learning.png`,
             description: "This involves algorithms that allow computers to learn from and make predictions based on data."
         },
         {
             id: 3,
             title: "Generative AI ",
-            image: `${process.env.PUBLIC_URL}Images/genai.jpg`,
+            image: `${process.env.PUBLIC_URL}/Images/genai.jpg`,
             description: "Systems capable of creating new content, such as text, images, music, or code, based on patterns learned from data."
         }
     ];

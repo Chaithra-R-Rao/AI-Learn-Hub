@@ -29,7 +29,7 @@ function App() {
           <Route path="/faculty-dashboard" element={<FacultyDashboard />} />
           <Route path="/student-dashboard" element={<StudentDashboard />} />
           <Route path="/courses/:category" element={<CoursesPage />} />
-          <Route path="/" exact element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Routes>
         <Footer />
       </div>
