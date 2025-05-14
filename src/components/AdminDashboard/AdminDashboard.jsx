@@ -90,9 +90,6 @@ const AdminDashboard = () => {
             });
     };
 
-    const studentCount = groupedUsers['student']?.length || 0;
-    const courseCount = courses.length;
-
     return (
         <div className="container mt-4">
             <h2 className="mb-4">Admin Dashboard</h2>
@@ -143,9 +140,9 @@ const AdminDashboard = () => {
                         </div>
                         <div className="col-md-3 mb-3">
                             <select className="form-control" name="role" value={selectedUser.role} onChange={handleInputChange}>
-                                <option value="admin">Admin</option>
-                                <option value="student">Student</option>
-                                <option value="teacher">Teacher</option>
+                                <option value="Admin">Admin</option>
+                                <option value="Student">Student</option>
+                                <option value="Teacher">Teacher</option>
                             </select>
                         </div>
                     </div>
